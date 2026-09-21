@@ -60,7 +60,7 @@ pip install -r requirements.txt
 cp .env.example .env        # then add your key
 export ANTHROPIC_API_KEY=sk-ant-...
 
-streamlit run app.py        # UI at localhost:8501
+python -m streamlit run app.py        # UI at localhost:8501
 python main.py              # or run headless against a synthetic cohort
 ```
 
